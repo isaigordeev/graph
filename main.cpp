@@ -4,7 +4,7 @@
 #include "utils.cpp"
 #include <unistd.h>
 #include <filesystem>
-#include "graph.cpp"
+#include "heap_folder/graph.cpp"
 
 int main() {
     std::string folderName = "INF421_PI_tests";

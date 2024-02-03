@@ -3,4 +3,4 @@ project(graph)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(graph main.cpp utils.h graph.cpp)
+add_executable(graph main.cpp utils.h heap_folder/graph.cpp graph.cpp)
