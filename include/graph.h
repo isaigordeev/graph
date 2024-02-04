@@ -14,13 +14,19 @@
 
 class Graph {
 private:
-    int _vertex_number;
+    int _vertex_number{};
     std::vector<int> _nodes_enum;
-    std::vector<Node> _nodes;
+
     std::vector<std::pair<int, int>> adjacencyList;
+    std::vector<int> weights;
+
+    std::vector<Node> _nodes;
     std::map<Node, Node> _adjacency;
 
 public:
+
+    explicit Graph();
+    explicit Graph(int vertex_number);
     explicit Graph(int vertex_number, std::vector<std::pair<int, int>> adjacencyList, std::vector<int> nodes);
 
     void define_vertices(int vertex_number);
