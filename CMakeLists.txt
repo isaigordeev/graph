@@ -7,6 +7,7 @@ set(SOURCES
         ./src/main.cpp
         ./src/input.cpp
         ./src/graph.cpp
+        ./src/utils.cpp
         )
 
 set(HEADERS

@@ -5,3 +5,13 @@ S(x, y) = \sum_v w(v) · min{d(v, x), d(v, y)}. v∈V
 Such vertices x and y are the two centers in the tree.
 
 # Build
+
+
+
+mkdir build
+
+cd build
+
+cmake ..
+
+make

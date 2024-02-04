@@ -13,9 +13,6 @@ constexpr const char* PREFIX = "centers.";
 const std::string EXT = ".in";
 constexpr const char* DEFAULT_FILE_NUMBER = "1";
 
-std::string defaultPath = "/Users/isaigordeev/Desktop/2023/graph/INF421_PI_tests/centers.1.in";
-
-
 
 int initGraph();
 

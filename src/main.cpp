@@ -1,16 +1,11 @@
-#include <iostream>
-#include <string>
-#include <fstream>
-#include <unistd.h>
-#include <filesystem>
-
-#include "utils.cpp"
 #include "../include/input.h"
 
 
 int main() {
 
-    int a = input();
+    std::string defaultPath = "/Users/isaigordeev/Desktop/2023/graph/INF421_PI_tests/centers.1.in";
+
+    int a = initGraph();
 
     return 0;
 

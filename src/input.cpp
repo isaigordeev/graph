@@ -7,13 +7,12 @@
 
 #include "../include/utils.h"
 #include "../include/input.h"
-#include "../include/graph.h"
+//#include "../include/graph.h"
 
 
 
 
 int initGraph(){
-
 
     std::string absoluteInputPath = input_dir(FOLDER_NAME);
     std::string filePath = create_file_name(absoluteInputPath, PREFIX, DEFAULT_FILE_NUMBER, EXT);
@@ -25,10 +24,6 @@ int initGraph(){
         std::cerr << "Error opening file: " << filePath << std::endl;
         return 1;
     }
-
-
-
-
 
     std::string number;
     std::getline(inputFile, number);
