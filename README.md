@@ -3,3 +3,5 @@ Let T = (V, E) be a tree where V is the set of vertices and E is the set of edge
 The task is to find two vertices x and y in the tree, such that the following expression S(x, y) is minimized:
 S(x, y) = \sum_v w(v) · min{d(v, x), d(v, y)}. v∈V
 Such vertices x and y are the two centers in the tree.
+
+# Build

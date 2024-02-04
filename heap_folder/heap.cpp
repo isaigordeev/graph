@@ -6,6 +6,8 @@
 #include <vector>
 #include <map>
 #include <utility>
+//#include "include/graph.h"
+
 
 using namespace std;
 
@@ -16,7 +18,7 @@ struct Edge {
     explicit Edge(int number, int w) : number(number), weight(w) {}
 };
 
-class Graph {
+//class Graph {
 private:
     int vertex_number;
     vector<Edge> nodes;
@@ -44,6 +46,7 @@ public:
         }
     }
 };
+
 
 int main() {
     Graph graph;

@@ -10,6 +10,7 @@ struct Node {
     int number;
     int weight;
 
+    explicit Node() : number(0), weight(0) {}
     explicit Node(int number, int w) : number(number), weight(w) {}
 };
 

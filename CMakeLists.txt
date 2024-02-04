@@ -3,4 +3,16 @@ project(graph)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(graph main.cpp utils.h heap_folder/graph.cpp graph.cpp)
+set(SOURCES
+        ./src/main.cpp
+        ./src/input.cpp
+        ./src/graph.cpp
+        )
+
+set(HEADERS
+#        include/YourHeaderFile.h
+        ./include/utils.h
+        ./include/node.h
+        )
+
+add_executable(graph ${SOURCES} ${HEADERS})
